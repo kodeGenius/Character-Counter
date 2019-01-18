@@ -1,3 +1,6 @@
+
+let string = prompt("Please Enter the senterce here!");
+let char = prompt("Enter the alphabet to search and count how many times it appear";)
 const counter = (string, char) =>{
 	let count = 0;
 	for(let j = 0; j < string.length; j++){
@@ -5,6 +8,6 @@ const counter = (string, char) =>{
 		  count += 1;
 		}
 	}
-	return count;
+	alert(count);
 }
 console.log(counter('Iamtoogoodtobelazyo', 'o'))

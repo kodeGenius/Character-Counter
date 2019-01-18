@@ -1,12 +1,13 @@
 
-let string = prompt("Please Enter the senterce here!");
-let char = prompt("Enter the alphabet to search and count how many times it appear";)
-const counter = (string, char) =>{
+const counter = () =>{
 	let count = 0;
-	for(let j = 0; j < string.length; j++){
-		if(string[j] == char){
+	let sring = prompt("Please Enter the senterce here!");
+	let cha = prompt("Enter the alphabet to search and count how many times it appear");
+	for(let j = 0; j < sring.length; j++){
+		if(sring[j] == cha){
 		  count += 1;
 		}
 	}
-	alert(count);
+	return count;
 }
+alert(counter());

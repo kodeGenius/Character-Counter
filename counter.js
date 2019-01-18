@@ -10,4 +10,3 @@ const counter = (string, char) =>{
 	}
 	alert(count);
 }
-console.log(counter('Iamtoogoodtobelazyo', 'o'))

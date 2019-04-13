@@ -1,4 +1,4 @@
-
+// counter function
 const counter = () =>{
 	let count = 0;
 	let sring = prompt("Please Enter the senterce here!");
